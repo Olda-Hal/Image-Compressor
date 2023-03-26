@@ -41,6 +41,12 @@ You can configure the output particle effect by modifying the `config.py` file. 
 Following images will show you how this looks in-game:
 ![Showcase1](images/result1.png)
 
+# Planed Features
+- GUI
+- more algorithms to choose from
+- more customization
+- evolution generation optimalization
+
 # Algorithm used
 
 This algorithm employs a quadratic approach to reduce the size of images. Initially, it divides the image into selections, each the size of a quarter of the original image. If the subsequent square is uniform in color or at least similar in color within the specified color similarity value, the division process stops, and it is recorded in the output file. This cycle repeats until all squares are either divided or become as small as the minimum size. Then, the algorithm terminates the division process and sets the average color value throughout.
