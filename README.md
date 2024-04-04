@@ -22,7 +22,7 @@ python compressor.py -h
 python compressor.py test.jpg 10 10 test_compressed.jpg
 ```
 # Showcase
-
+You can see some examples of the generated images in the [showcase](SHOWCASE.md) with some short descriptions about the images.
 
 # How it works
 this algorithm is a recursive algorithm that works as follows:
